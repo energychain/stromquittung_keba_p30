@@ -8,6 +8,8 @@ This module retrieves the last charging session of a KEBA P30 Wallbox (or compat
 
 ![Corrently STROM-Quittung](https://corrently.de/assets/img/Logos/Corrently/StromQuittung_Web.png)
 
+Sample of a receipt created using this module:
+https://corrently.de/download/0x1f0516a14d76125dC9B4e6589434f28E0A200CA8.pdf
 
 ## Installation / Usage
 
