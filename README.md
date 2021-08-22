@@ -6,6 +6,10 @@ Prepare a  billing event for last charging sessio of a KEBA P30 Wallbox
 
 This module retrieves the last charging session of a KEBA P30 Wallbox (or compatible) using a UDP connection [KEBA P20/P30 Programmers Guide](https://www.keba.com/file/downloads/e-mobility/KeContact_P20_P30_UDP_ProgrGuide_en.pdf) and pushes value to an energy receipt [Strom-Quittung](https://strom-quittung.de) to invoice customer.
 
+
+![Corrently STROM-Quittung](https://corrently.de/assets/img/Logos/Corrently/StromQuittung_Web.png)
+
+
 ## Installation / Usage
 
 ### Prerequisites
@@ -23,10 +27,6 @@ const service = require("stromquittung-keba-p30");
 const quittungURL = service.quittung("IP_ADDRESS_OF_KEBABOX");
 console.log("Finish your Receipt at: ",quittungURL);
 ```
-
-## Funding
-This module is part of the Corrently Ecosystem which looks for funding in Germany:  https://www.stromdao.de/crowdfunding/info
-![STROMDAO - Corrently Crowdfunding](https://squad.stromdao.de/nextcloud/index.php/s/Do4pzpM7KndZxAx/preview)
 
 ## Further reading
 Further Documentation is available in german language: https://docs.corrently.de/
