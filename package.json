@@ -1,6 +1,6 @@
 {
   "name": "stromquittung-keba-p30",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prepare a billing event for last charging session of a KEBA P30 Wallbox",
   "main": "quittung.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "corrently",
     "stromdao",
     "charging",
-    "invoicing"
+    "invoicing",
+    "node-red"
   ],
   "author": "STROMDAO GmbH <kontakt@stromdao.com>",
   "license": "Apache-2.0",
