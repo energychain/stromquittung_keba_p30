@@ -1,0 +1,36 @@
+{
+  "name": "stromquittung-keba-p30",
+  "version": "1.0.0",
+  "description": "Prepare a billing event for last charging session of a KEBA P30 Wallbox",
+  "main": "quittung.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/stromquittung_keba_p30.git"
+  },
+  "bin": {
+    	"stromquittung_keba_p30": "./quittung.js"
+  },
+  "keywords": [
+    "stromquittung",
+    "wallbox",
+    "keba",
+    "p30",
+    "corrently",
+    "stromdao",
+    "charging",
+    "invoicing"
+  ],
+  "author": "STROMDAO GmbH <kontakt@stromdao.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/energychain/stromquittung_keba_p30/issues"
+  },
+  "homepage": "https://github.com/energychain/stromquittung_keba_p30#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  }
+}
