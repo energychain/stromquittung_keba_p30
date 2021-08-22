@@ -1,6 +1,5 @@
 # stromquittung-keba-p30
-Prepare a  billing event for last charging sessio of a KEBA P30 Wallbox
-
+Prepare a  billing event for last charging session of a KEBA P30 Wallbox
 
 ![npm](https://img.shields.io/npm/dw/stromquittung-keba-p30) [![Build Status](https://travis-ci.com/energychain/stromquittung-keba-p30.svg?branch=master)](https://travis-ci.com/energychain/stromquittung-keba-p30) [![Code Quality](https://www.code-inspector.com/project/12872/score/svg)](https://frontend.code-inspector.com/public/project/12872/stromquittung-keba-p30/dashboard)
 
@@ -26,6 +25,12 @@ npm install -g stromquittung-keba-p30
 const service = require("stromquittung-keba-p30");
 const quittungURL = service.quittung("IP_ADDRESS_OF_KEBABOX");
 console.log("Finish your Receipt at: ",quittungURL);
+```
+
+### in Node-RED
+```shell
+  cd ~/.node-red/
+  npm i --save stromquittung-keba-p30
 ```
 
 ## Further reading

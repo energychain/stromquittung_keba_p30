@@ -1,6 +1,6 @@
 {
   "name": "stromquittung-keba-p30",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prepare a billing event for last charging session of a KEBA P30 Wallbox",
   "main": "quittung.js",
   "scripts": {
@@ -27,6 +27,11 @@
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/energychain/stromquittung_keba_p30/issues"
+  },
+  "node-red" : {
+        "nodes": {
+            "kebap30-quittung": "nr-quittung.js"
+        }
   },
   "homepage": "https://github.com/energychain/stromquittung_keba_p30#readme",
   "dependencies": {

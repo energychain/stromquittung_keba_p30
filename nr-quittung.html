@@ -1,0 +1,31 @@
+<script type="text/javascript">
+    RED.nodes.registerType('kebap30-quittung',{
+       category: 'Corrently',
+       color: '#D7D7A0',
+        defaults: {
+            name: {value:""},
+            ip: {value:"192.168.1.24",required:true}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"kebap30-quittung";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="kebap30-quittung">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-ip"><i class="fa fa-tag"></i> IP of KEBA Wallbox</label>
+        <input type="text" id="node-input-ip" placeholder="192.168.1.35">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="kebap30-quittung">
+    <p>Retrieves last charging session info from a KEBA P30 Wallbox (or compatible) and provides a pre-filled StromQuittung-URL as resulting msg.payload</p>
+</script>
